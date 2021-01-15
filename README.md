@@ -29,5 +29,5 @@ ___
 ```js
 import { Bar, Doughnut, Line } from 'react-chartjs-2'
 ```
-[chartimg]<img src="./src/chart.png" style="width:500px">
+<img src="./src/chart.png" style="width:500px">
 
