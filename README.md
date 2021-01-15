@@ -25,7 +25,7 @@ const arr = items.reduce((acc, cur)=>{ },[]);
 ___
  
 # 3. chart.js ( react-chartjs-2 )
->npm install react-chartjs-2 chart.js
+>`npm install react-chartjs-2 chart.js`
 ```js
 import { Bar, Doughnut, Line } from 'react-chartjs-2'
 ```
