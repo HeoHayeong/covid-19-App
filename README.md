@@ -1,6 +1,6 @@
 ### 1. axio 
 
->`$ yarn add axios`
+>`npm install axios`
 
 ``` js
 import axios from 'axios'
