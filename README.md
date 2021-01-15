@@ -1,4 +1,4 @@
-# 1. axio 
+# 1. axios
 
 >`npm install axios`
 
