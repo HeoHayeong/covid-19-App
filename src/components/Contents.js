@@ -12,7 +12,7 @@ const Contents = () => {
     const [comparedData, setComparedData] = useState({})  // 현재 달 
 
     useEffect(()=>{
-        const fetchEvents = async () => {
+        const axiosEvents = async () => {
             const res = await axios.get("https://api.covid19api.com/total/dayone/country/kr")
             // console.log(res);
             makeData(res.data) 
@@ -102,7 +102,7 @@ const Contents = () => {
             });
 
         }
-        fetchEvents()
+        axiosEvents()
     },[])
     return (
         <section>
